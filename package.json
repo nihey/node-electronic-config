@@ -1,0 +1,32 @@
+{
+  "name": "electronic-config",
+  "version": "0.0.0",
+  "description": "Convert electronic configuration to electrons per shell",
+  "main": "./lib/index.js",
+  "bin": {
+    "electronic-config": "electronic-config.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nihey/node-electronic-config.git"
+  },
+  "keywords": [
+    "electron",
+    "electronic",
+    "configuration",
+    "chemistry",
+    "shell"
+  ],
+  "author": "Nihey Takizawa <nihey.takizawa@gmail.com> (nihey.com.br)",
+  "license": "MIT",
+  "bin": {
+    "electronic-config": "bin/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/nihey/node-electronic-config/issues"
+  },
+  "homepage": "https://github.com/nihey/node-electronic-config"
+}
