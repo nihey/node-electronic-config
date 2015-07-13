@@ -1,10 +1,10 @@
 {
   "name": "electronic-config",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Convert electronic configuration to electrons per shell",
   "main": "./lib/index.js",
   "bin": {
-    "electronic-config": "electronic-config.js"
+    "electronic-config": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,11 +22,11 @@
   ],
   "author": "Nihey Takizawa <nihey.takizawa@gmail.com> (nihey.com.br)",
   "license": "MIT",
-  "bin": {
-    "electronic-config": "bin/index.js"
-  },
   "bugs": {
     "url": "https://github.com/nihey/node-electronic-config/issues"
   },
-  "homepage": "https://github.com/nihey/node-electronic-config"
+  "homepage": "https://github.com/nihey/node-electronic-config",
+  "dependencies": {
+    "periodic-table": "0.0.1"
+  }
 }
